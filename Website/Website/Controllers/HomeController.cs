@@ -27,6 +27,15 @@ namespace Website.Controllers
             return View();
         }
 
+        [HttpGet("location/{name}")]
+        public IActionResult Location(string name)
+        {
+      
+            ViewData["LocationName"] = name;
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
