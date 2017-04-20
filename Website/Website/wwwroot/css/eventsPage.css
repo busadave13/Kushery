@@ -1,0 +1,11 @@
+﻿.page {
+    text-align: center;
+    /*background-color: #049444;*/
+    /*background: linear-gradient(to bottom right, #049444, #F59F2A);*/
+    height: 600px;
+}
+
+.page iframe {
+    margin: auto;
+    padding: 30px;
+}

@@ -2,4 +2,10 @@
     ViewData["Title"] = "Contact";
 }
 
-<iframe src="https://calendar.google.com/calendar/embed?src=djg57i738isu15b1g202qlf3ik%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+@section head {
+    <link rel="Stylesheet" href="@Href("~/css/eventsPage.css")" />
+}
+
+<div class="page">
+    <iframe src="https://calendar.google.com/calendar/embed?src=djg57i738isu15b1g202qlf3ik%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
