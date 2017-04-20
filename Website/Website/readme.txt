@@ -1,4 +1,15 @@
-﻿
+﻿Microsoft:
+	thekushery420@outlook.com
+	GSX1300r
+Google:
+	thekushery420@outlook.com
+	GSX1300r
+
+Google Calander
+	Account:	thekushery420@outlook.com
+	Key:		858576927842-tctsp6aadejepi8rv4pf9kaps4pbo5jk.apps.googleusercontent.com
+	CalanderID:	 thekushery420@outlook.com
+
 Link to current code running on Azure
 http://kushery.azurewebsites.net/
 
