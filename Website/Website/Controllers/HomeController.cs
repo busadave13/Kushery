@@ -36,6 +36,12 @@ namespace Website.Controllers
             return View();
         }
 
+        [HttpGet("events")]
+        public IActionResult Events()
+        {            
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
