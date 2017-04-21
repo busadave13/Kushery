@@ -1,0 +1,25 @@
+﻿.location-banner {
+    background-image: url("../images/P1430650.JPG");
+    background-position: center center;
+    background-size: cover;
+    height: 375px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+ 
+}
+
+.location-banner-name {
+    color: #ffffff;
+    font-size: 200px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    width: 100%
+}
+
+.intformation {
+float: right;
+margin: 0 25px 0 0;
+}
