@@ -23,13 +23,15 @@
 </head>
 <body>
     <header>
+        @*Logo*@
         <div class="logo-container">
             <div class="logo">
-                <!-- Logo -->
-                <img src="~/images/KusheryLogo.jpg" height=" 200" width="400" alt="Kushery Logo" />
+                <img src="~/images/KusheryLogo.jpg" alt="Kushery Logo" />
                 <h1>* Must be 21 with valid ID *</h1>
             </div>
         </div>
+
+        @*Navbar*@
         <nav class="navbar navbar-custom">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -60,6 +62,10 @@
         @RenderBody()
         <hr />
         <footer>
+            <article>
+                 This Product has intoxicating effects and may be habit forming. Marijuana can impair concentration, coordination, and judgment. Do not operate a vehicle or machinery under the influence of this drug. There may be health risks associated with consumption of this product. For use only by adults twenty-one and older. Keep out of the reach of children 
+            </article>
+            <br />
             <p>&copy; 2017 - The Kushery</p>
         </footer>
     </div>
