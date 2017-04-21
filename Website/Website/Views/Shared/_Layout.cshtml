@@ -19,14 +19,16 @@
         <link href="~/css/agecheck.css" rel="stylesheet">
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
-    @RenderSection("head", false);
+    @RenderSection("head", false)
 </head>
 <body>
     <header>
-        <div class="logo">
-            <!-- Logo -->
-            <img src="~/images/KusheryLogo.jpg" height=" 200" width="400" alt="Kushery Logo" />
-            <h1>* Must be 21 with valid ID *</h1>
+        <div class="logo-container">
+            <div class="logo">
+                <!-- Logo -->
+                <img src="~/images/KusheryLogo.jpg" height=" 200" width="400" alt="Kushery Logo" />
+                <h1>* Must be 21 with valid ID *</h1>
+            </div>
         </div>
         <nav class="navbar navbar-custom">
             <div class="container-fluid">
@@ -86,12 +88,6 @@
             });
         </script>
     </environment>
-
-
-    @*<script>
-        $.ageCheck({
-        });
-    </script>*@
 
     @RenderSection("Scripts", required: false)
 
