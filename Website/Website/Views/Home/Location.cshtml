@@ -1,64 +1,61 @@
 ﻿@{
-    ViewData["Title"] = "Contact";
+    ViewData["Title"] = "Clearview";
 }
-<h2>@ViewData["Title"].</h2>
-<h3>@ViewData["Message"]</h3>
+
+@section head {
+    <link rel="Stylesheet" href="@Href("~/css/locationPage.css")" />
+}
 
 
-<section>
-    <article>
-        <header>
-            <h2>@ViewData["LocationName"]</h2>
-            <p>1234 SomeStreet SE Goldbar, WA</p>
-            <p>425-3440-1232</p>
-        </header>
+@*banner*@
 
-        <span class="map">
-            <iframe frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?q=47.8764648,-122.1564188&amp;key=AIzaSyDK08tC4NRubbIiw-xwDR1WEp-YAXX1Mx8" allowfullscreen=""></iframe>
-        </span>
-    </article>
-
-    <article>
-        <h2>Hours</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Sunday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                </tr>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Monday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                    <td class="spacer-vertical-xxs spacer-left-xs" style="color: green">Open Now</td>
-                </tr>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Tuesday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                </tr>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Wednesday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                </tr>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Thursday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                </tr>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Friday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                </tr>
-                <tr>
-                    <td class="spacer-vertical-xxs spacer-right-xs"><b>Saturday</b></td>
-                    <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
-
-                </tr>
-            </tbody>
-        </table>
-    </article>
+<section class="location-banner">
+    <label class=" location-banner-name">Clearview</label>
 </section>
+
+@*location hours*@
+
+      <section class="hours">
+                                <h2>Hours</h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Sunday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Monday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                            <td class="spacer-vertical-xxs spacer-left-xs" style="color: green">Open Now</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Tuesday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Wednesday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Thursday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Friday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="spacer-vertical-xxs spacer-right-xs"><b>Saturday</b></td>
+                                            <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+                  
