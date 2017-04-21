@@ -84,17 +84,18 @@ textarea {
 }*/
 
 #myCarousel {
-    height: 50%;
-    width: 50%;
+    height: 75%;
+    width: 75%;
     position: relative;
     top: 10%;
-    left: 25%;
-    /*width: 300px;
+    /*left: 25%;*/
+    width: 300px;
     display: table;
-    margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 .carousel-caption p {
+    display: none;
     font-size: 20px;
     line-height: 1.4;
 }
@@ -128,7 +129,7 @@ textarea {
     .navbar-custom .navbar-nav > .active > a:focus,
     .navbar-custom .navbar-nav > .open > a {
         text-decoration: none;
-        background-color: #33aa33;
+        background-color: #f69f2b;
     }
 
 .navbar-custom .navbar-brand {
@@ -139,21 +140,21 @@ textarea {
     background-color: #eeeeee;
 }
 
-.navbar-custom .icon-bar {
-    background-color: #33aa33;
-}
+    .navbar-custom .icon-bar {
+        background-color: #f69f2b;
+    }
 
-.navbar-custom .navbar-nav .dropdown-menu {
-    background-color: #33aa33;
-}
+    .navbar-custom .navbar-nav .dropdown-menu {
+        background-color: #f69f2b;
+    }
 
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
     color: #fff;
 }
 
-.navbar-custom .navbar-nav .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .dropdown-menu > li > a:focus {
-    color: #33aa33;
-}
+    .navbar-custom .navbar-nav .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .dropdown-menu > li > a:focus {
+        color: #f69f2b;
+    }
 
 /*.navbar-custom {
     background-color: #049444;
