@@ -1,0 +1,58 @@
+﻿/* Carousel */
+.carousel-container {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/WAbackground.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 28em;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-container label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(27, 27, 27, 0.75);
+    color: #fff;
+    font-size: 2em;
+}
+
+#myCarousel {
+    position: relative;
+    top: 10%;
+    width: 300px;
+    display: table;
+    margin: 0 auto;
+}
+
+.carousel-caption p {
+    display: none;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: center;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.col-centered label {
+    font-size: 30pt;
+}
