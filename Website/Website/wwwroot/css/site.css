@@ -1,8 +1,13 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 body {
     padding-top: 0px;
     padding-bottom: 20px;
+    color: #474747;
+    font-family: 'Permanent Marker', cursive;
+    /*font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.65em;*/
 }
 
 /* Wrapping element */
@@ -24,19 +29,21 @@ textarea {
 }*/
 
 /* Logo */
-.logo {
+.logo-container {
+    height: 300px;
     text-align: center;
-    padding: 3em 0 0 0;
     background-color: #000000;
-    /*background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-    background-position: top left, top left, top left;
-    background-size: 100% 6em, 100% 6em, auto;
-    background-repeat: no-repeat, no-repeat, repeat;*/
+}
+
+.logo {
+    float: none;
+    margin-top: auto;
+    vertical-align: middle;
 }
 
 .logo h1 {
-    padding: 0 0 2.25em 0;
-    margin: 0;
+    font-size: 1em;
+    color: #fff
 }
 
 
@@ -65,16 +72,15 @@ textarea {
 
 .carousel-container header h2 {
     /*display: inline-block;*/
-    margin: -1em;
-    color: #000000;
-    font-size: 2.25em;
+    /*margin: -1em;
+    font-size: 1.25em;
     color: #ffffff;
-    vertical-align: middle;
+    vertical-align: middle;*/
 }
 
-.carousel-container header h2 em {
+/*.carousel-container header h2 em {
     opacity: 0.75;
-}
+}*/
 
 #myCarousel {
     height: 50%;
@@ -99,14 +105,15 @@ textarea {
 
 /* Customize navbar */
 .navbar-custom {
-    background-color: #049444;
-    color: #f59f2a;
+    background: linear-gradient(#ebebeb, #ebebeb);
+    color: #000000;
     border-radius: 0;
     font-weight: bold;
+    border-bottom: 5px solid #006500;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color: #f59f2a;
+    color: #000000;
 }
 
 .navbar-custom .navbar-nav > .active > a {
@@ -185,9 +192,9 @@ textarea {
     }
 }
 
-/* set a max-width for horizontal fluid layout and make it centered */
+/* Override the container for layout to make elements full screen*/
 .container-full {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1600px; /* or 950px */
+    max-width: 3600px; /* or 950px */
 }
