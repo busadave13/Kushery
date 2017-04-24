@@ -1,4 +1,9 @@
-﻿.location-banner {
+﻿body {
+    background-color: #c0c0c0;
+}
+
+
+.location-banner {
     background-image: url("../images/P1430650.JPG");
     background-position: center center;
     background-size: cover;
@@ -19,7 +24,50 @@
     width: 100%
 }
 
-.intformation {
-float: right;
-margin: 0 25px 0 0;
+.bio
+{
+  width: 100%;
+  padding:30px 0 0 30px;
+  font-size: 1.5em;
+  padding: 50px 95px 0 0;
+ 
+}
+
+.map {
+    display: block;
+    width: 400px;
+    height: 400px;
+    /*padding: 50px;
+    position: relative;
+    padding: 10px 0 0 90px;*/
+    
+}
+iframe {
+    width: 250%;
+    height: 100%;
+    
+}
+
+.address {
+    font-size: 1.5em;
+    padding: 50px 0 0 0;
+}
+
+
+.information-hours{
+    
+    font-size: 1.5em;
+    
+}
+
+.employee-carousel {
+    
+    width: 300px;
+   
+}
+
+.specials {
+    padding: 50px 0 0 40px;
+    font-size: 1.5em;
+  
 }
