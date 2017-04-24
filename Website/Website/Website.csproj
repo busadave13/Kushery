@@ -12,6 +12,10 @@
     <Content Include="wwwroot\css\eventsPage.css" />
     <Content Include="wwwroot\css\indexPage.css" />
     <Content Include="wwwroot\css\locationPage.css" />
+    <Content Include="wwwroot\images\emp1.jpg" />
+    <Content Include="wwwroot\images\emp2.jpg" />
+    <Content Include="wwwroot\images\emp3.jpg" />
+    <Content Include="wwwroot\images\emp4.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="2.4.337" />
