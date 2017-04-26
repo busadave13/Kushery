@@ -22,8 +22,8 @@
 
 #myCarousel {
     position: relative;
-    top: 10%;
-    width: 300px;
+    top: 20%;
+    width: 500px;
     display: table;
     margin: 0 auto;
 }

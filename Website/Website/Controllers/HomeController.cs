@@ -36,6 +36,24 @@ namespace Website.Controllers
             return View();
         }
 
+        [HttpGet("clearview")]
+        public IActionResult Clearview()
+        {
+            return View();
+        }
+
+        [HttpGet("Lake Forest Park")]
+        public IActionResult LakeForestPark()
+        {
+            return View();
+        }
+
+        [HttpGet("cathcart")]
+        public IActionResult Cathcart()
+        {            
+            return View();
+        }
+
         [HttpGet("events")]
         public IActionResult Events()
         {            
