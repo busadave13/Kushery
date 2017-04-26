@@ -16,12 +16,14 @@
     <Content Include="wwwroot\images\emp2.jpg" />
     <Content Include="wwwroot\images\emp3.jpg" />
     <Content Include="wwwroot\images\emp4.jpg" />
+
     <Content Include="wwwroot\images\EverettBanner.JPG" />
     <Content Include="wwwroot\images\Everettemp1.JPG" />
     <Content Include="wwwroot\images\Everettemp2.JPG" />
     <Content Include="wwwroot\images\LakeForestemp1.JPG" />
     <Content Include="wwwroot\images\LakeForestemp2.jpg" />
     <Content Include="wwwroot\images\LakeForestemp3.jpg" />
+
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="2.4.337" />
