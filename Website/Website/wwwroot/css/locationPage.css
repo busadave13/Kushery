@@ -35,7 +35,8 @@
 
 .map {
     display: block;
-    width: 400px;
+    width: 350px;
+
     height: 400px;
     /*padding: 50px;
     position: relative;
@@ -50,7 +51,9 @@ iframe {
 
 .address {
     font-size: 1.5em;
-    padding: 50px 0 0 0;
+
+    padding: 50px 0 0 0px;
+
 }
 
 
@@ -58,12 +61,16 @@ iframe {
     
     font-size: 1.5em;
     
+
+    
+    
 }
 
 .employee-carousel {
-    
     width: 300px;
-   
+    padding:30px 0 10px 0;
+    
+
 }
 
 .specials {
