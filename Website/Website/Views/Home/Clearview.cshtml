@@ -3,19 +3,21 @@
 }
 
 @section head {
-    <link rel="Stylesheet" href="@Href("~/css/locationPage.css")" />
+    <link rel="Stylesheet" href="@Href("~/css/locationpage.css")" />
 }
 
 
 @*banner*@
 
-<section class="location-banner">
+<section class="location-banner-clearview">
+   
     <label class=" location-banner-name">Clearview</label>
 </section>
 
 
 <div class="row">
 
+    @*specials*@
 
     <div class="col-sm-3">
 
@@ -39,7 +41,7 @@
     
  </div>
 
-
+    @*bio*@
 
     <div class="col-sm-6">
         <div class="bio">
@@ -54,6 +56,24 @@
         </div>
     </div>
 
+
+
+    @*social media*@
+    <div class="social-media">
+        <a href="https://www.facebook.com/kusheryclearview/">
+            <img title="facebook" alt="facebook" src="~/images/facebookLogo.PNG" />
+        </a>
+        <a href="https://www.instagram.com/the_kushery_clearview/?hl=en">
+            <img title="instagram" alt="instagram" src="~/images/instagram.png" />
+          </a>
+        <p><h4>Follow us on social media!</h4></p>
+    </div>
+
+
+
+
+    @*address*@
+
     <div class="col-sm-3">
         <div class="address">
             <p><b>The Kushery Snohomish:</b></p>
@@ -62,50 +82,56 @@
             <p><b>Phone:</b> 360-863-3256</p>
         </div>
 
+
+        @*hours*@
+
+
         <section class="information-hours">
             <h2>Hours</h2>
             <table>
                 <tbody>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Sunday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Monday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                         <td class="spacer-vertical-xxs spacer-left-xs" style="color: green">Open Now</td>
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Tuesday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Wednesday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Thursday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Friday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Saturday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                 </tbody>
             </table>
         </section>
 
+
+        @*employee carousel*@
 
         <div class="employee-carousel">
             <h3>Our Clearview Employees.</h3>

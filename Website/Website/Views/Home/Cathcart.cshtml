@@ -3,20 +3,21 @@
 }
 
 @section head {
-    <link rel="Stylesheet" href="@Href("~/css/locationPage.css")" />
+    <link rel="Stylesheet" href="@Href("~/css/locationpage.css")" />
 }
 
 
 @*banner*@
 
-<section class="location-banner">
-   
+<section class="location-banner-cathcart">
+ 
     <label class=" location-banner-name">Cathcart</label>
 </section>
 
 
 <div class="row">
 
+    @*specials*@ 
 
     <div class="col-sm-3">
 
@@ -31,6 +32,11 @@
         </div>
     
  </div>
+    
+   
+
+
+    @*bio*@
 
 
 
@@ -44,18 +50,39 @@
            
         </div>
 
+      
+         @*map*@
         <div class="map">
             <iframe frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?q=18026 state route 9, Everett WA 98208 &amp;key=AIzaSyDK08tC4NRubbIiw-xwDR1WEp-YAXX1Mx8" allowfullscreen=""></iframe>
         </div>
     </div>
 
+    @*social media*@
+    <div class="social-media">
+        <a href="https://www.facebook.com/The-Kushery-Everett-219658371810578/  "> 
+            <img title="facebook" alt="facebook" src="~/images/facebookLogo.PNG" />
+        </a>
+        
+        <a href="https://www.instagram.com/kushery_everett/?hl=en">
+            <img title="instagram" alt="instagram" src="~/images/instagram.png" />
+        </a>
+        <p><h4>Follow us on social media!</h4></p>
+       
+    </div>
+
+
+    @*address*@
+
     <div class="col-sm-3">
         <div class="address">
             <p><b>The Kushery Everett:</b></p>
-            <p>18026 State Route 9, STE B</p>
+            <p>5626 134th Pl SE STE B</p>
             <p>Everett, WA. 98208</p>
             <p><b>Phone:</b> 425-337-5145</p>
         </div>
+
+
+        @*hours*@
 
         <section class="information-hours">
             <h2>Hours</h2>
@@ -101,6 +128,7 @@
             </table>
         </section>
 
+        @*employee carousel*@
 
         <div class="employee-carousel">
             <h3>Our Cathcart Employees.</h3>
@@ -147,6 +175,7 @@
 
   </div>
 </div>
+ </div>
 
 
 

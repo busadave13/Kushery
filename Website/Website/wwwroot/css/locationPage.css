@@ -3,7 +3,7 @@
 }
 
 
-.location-banner {
+.location-banner-clearview {
     background-image: url("../images/P1430650.JPG");
     background-position: center center;
     background-size: cover;
@@ -14,6 +14,27 @@
  
 }
 
+.location-banner-cathcart {
+    background-image: url("../images/CathcartBanner.JPG");
+    background-position: center center;
+    background-size: cover;
+    height: 375px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+.location-banner-lakeforestpark {
+    background-image: url("../images/lakeforestparkbanner.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 375px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+
 .location-banner-name {
     color: #ffffff;
     font-size: 200px;
@@ -22,15 +43,22 @@
     text-align: center;
     top: 30px;
     width: 100%
+    
 }
 
 .bio
 {
+    
   width: 100%;
   padding:30px 0 0 30px;
   font-size: 1.5em;
   padding: 50px 95px 0 0;
- 
+  border:2px solid #000000;
+  padding:8px 0 0 10px;
+  margin:4px;
+  width:850px;
+  
+  
 }
 
 .map {
@@ -56,15 +84,23 @@ iframe {
 
 }
 
+.social-media {
+    position: relative;
+    left: 62px;
+    padding: 25px 0 0 0;
+    
+}
+
+.social-media h4{
+    position:relative;
+    right: 44px;
+}
 
 .information-hours{
     
     font-size: 1.5em;
-    
+  }
 
-    
-    
-}
 
 .employee-carousel {
     width: 300px;
