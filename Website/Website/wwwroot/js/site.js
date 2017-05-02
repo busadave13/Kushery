@@ -7,8 +7,7 @@
             redirectTo: '',
             redirectOnFail: '',
             title: 'Age Verification',
-            copy: 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue:'
-        }, options);
+            copy: 'This Website requires you to be [21] years or older to enter. Please enter your Date of Birth in the fields below in order to continue: This Product has intoxicating effects and may be habit forming. Marijuana can impair concentration, coordination, and judgment. Do not operate a vehicle or machinery under the influence of this drug. There may be health risks associated with consumption of this product. For use only by adults twenty-one and older. Keep out of the reach of children' }, options);
 
 
         var _this = {

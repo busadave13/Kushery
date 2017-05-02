@@ -1,0 +1,34 @@
+﻿.location-banner-clearview {
+    /*background-image: url("../images/P1430650.JPG");
+    background-position: center center;
+    background-size: cover;*/
+    height: 100px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-size:100px;
+}
+
+
+.col-sm-4 {
+    padding:50px 0 0 55px;
+    width: 45%;
+
+}
+
+    .col-sm-4 information {
+        text-align: center;
+    } 
+
+
+.warning{
+    color:red;
+}
+
+
+
+.col-sm-8 {
+    width: 50%;
+    float: right;
+    margin: 50px 95px 0 0
+}

@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #c0c0c0;
+    background-color: #f0f0f5;
 }
 
 
@@ -64,17 +64,13 @@
 .map {
     display: block;
     width: 350px;
-
     height: 400px;
-    /*padding: 50px;
-    position: relative;
-    padding: 10px 0 0 90px;*/
-    
+ 
 }
 iframe {
     width: 250%;
     height: 100%;
-    
+ 
 }
 
 .address {
@@ -88,12 +84,14 @@ iframe {
     position: relative;
     left: 62px;
     padding: 25px 0 0 0;
-    
+   
+   
 }
 
 .social-media h4{
     position:relative;
     right: 44px;
+    
 }
 
 .information-hours{
@@ -113,4 +111,11 @@ iframe {
     padding: 50px 0 0 40px;
     font-size: 1.5em;
   
+}
+
+.carousel-caption h3 {
+    position: absolute;
+    top: -170px;
+    right: 150px;
+    font-size: 2em;
 }
