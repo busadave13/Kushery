@@ -28,7 +28,8 @@ body {
 .logo-container {
     height: 200px;
     text-align: center;
-    background-color: #000000;
+    background-color: #ffffff;
+    
 }
 
 .logo {
@@ -37,13 +38,19 @@ body {
 }
 
 .logo img {
+    
     height: 90%;
     padding-top: 10px;
+    width:480px;
 }
 .logo h1 {
     font-size: 1em;
-    color: #fff
+    color: #000000;
 }
+
+
+
+
 
 /* Customize navbar */
 /*.navbar-custom {

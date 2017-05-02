@@ -1,11 +1,19 @@
 ﻿.page {
     text-align: center;
-    /*background-color: #049444;*/
-    /*background: linear-gradient(to bottom right, #049444, #F59F2A);*/
-    height: 600px;
+    background-image: url("../images/WAbackground.jpg");
+    background-position:right;
+    width:100%;
+ 
+
+    /*background-color: #049444;
+    background: linear-gradient(to bottom right, #049444, #F59F2A);*/
+    
 }
 
-.page iframe {
-    margin: auto;
-    padding: 30px;
-}
+    .page iframe {
+        margin: auto;
+        padding: 30px;
+    }
+    
+
+

@@ -3,19 +3,21 @@
 }
 
 @section head {
-    <link rel="Stylesheet" href="@Href("~/css/locationPage.css")" />
+    <link rel="Stylesheet" href="@Href("~/css/locationpage.css")" />
 }
 
 
 @*banner*@
 
-<section class="location-banner">
+<section class="location-banner-clearview">
+   
     <label class=" location-banner-name">Clearview</label>
 </section>
 
 
 <div class="row">
 
+    @*specials*@
 
     <div class="col-sm-3">
 
@@ -39,7 +41,7 @@
     
  </div>
 
-
+    @*bio*@
 
     <div class="col-sm-6">
         <div class="bio">
@@ -50,9 +52,27 @@
         </div>
 
         <div class="map">
-            <iframe frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?q=13908 123rd ave se, snohomish wa&amp;key=AIzaSyDK08tC4NRubbIiw-xwDR1WEp-YAXX1Mx8" allowfullscreen=""></iframe>
+            <iframe frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?q=18026 State Route 9 snohomish, WA 98296&amp;key=AIzaSyDK08tC4NRubbIiw-xwDR1WEp-YAXX1Mx8" allowfullscreen=""></iframe>
         </div>
     </div>
+
+
+
+    @*social media*@
+    <div class="social-media">
+        <a href="https://www.facebook.com/kusheryclearview/">
+            <img title="facebook" alt="facebook" src="~/images/facebookLogo.PNG" />
+        </a>
+        <a href="https://www.instagram.com/the_kushery_clearview/?hl=en">
+            <img title="instagram" alt="instagram" src="~/images/instagram.png" />
+          </a>
+        <p><h4>Follow us on social media!</h4></p>
+    </div>
+
+
+
+
+    @*address*@
 
     <div class="col-sm-3">
         <div class="address">
@@ -62,50 +82,56 @@
             <p><b>Phone:</b> 360-863-3256</p>
         </div>
 
+
+        @*hours*@
+
+
         <section class="information-hours">
             <h2>Hours</h2>
             <table>
                 <tbody>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Sunday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Monday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
-                        <td class="spacer-vertical-xxs spacer-left-xs" style="color: green">Open Now</td>
+                        <td class="spacer-vertical-xxs spacer-left-xs" style="color: green"></td>
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Tuesday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Wednesday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Thursday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Friday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                     <tr>
                         <td class="spacer-vertical-xxs spacer-right-xs"><b>Saturday</b></td>
-                        <td class="spacer-vertical-xxs spacer-horizontal-xs">10:00 AM - 8:00 PM</td>
+                        <td class="spacer-vertical-xxs spacer-horizontal-xs">8:00 AM - 10:00 PM</td>
 
                     </tr>
                 </tbody>
             </table>
         </section>
 
+
+        @*employee carousel*@
 
         <div class="employee-carousel">
             <h3>Our Clearview Employees.</h3>
@@ -115,42 +141,54 @@
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="~/images/emp1.jpg" alt="ASP.NET" class="img-responsive" />
+                        <img src="~/images/emp1.jpg" class="img-responsive" />
                         <div class="carousel-caption" role="option">
+                            <p><h3>Mona</h3></p>
                         </div>
+
                     </div>
                     <div class="item">
-                        <img src="~/images/emp2.jpg" alt="Visual Studio" class="img-responsive" />
+                        <img src="~/images/emp5.jpg" class="img-responsive" />
                         <div class="carousel-caption" role="option">
+                            <p><h3>Lucy</h3></p>
+                        </div>
+                        </div>
+                        <div class="item">
+                            <img src="~/images/emp2.jpg" class="img-responsive" />
+                            <div class="carousel-caption" role="option">
+                                <p><h3>Johnnie</h3></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="~/images/emp3.jpg" class="img-responsive" />
+                            <div class="carousel-caption" role="option">
+                                <p><h3>Dillon</h3></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="~/images/emp4.jpg" class="img-responsive" />
+                            <div class="carousel-caption" role="option">
+                                <p><h3>Dominic</h3></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="~/images/emp3.jpg" alt="Package Management" class="img-responsive" />
-                        <div class="carousel-caption" role="option">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="~/images/emp4.jpg" alt="Microsoft Azure" class="img-responsive" />
-                        <div class="carousel-caption" role="option">
-                        </div>
-                    </div>
+
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
 
-  </div>
+        </div>
 </div>
 
 
