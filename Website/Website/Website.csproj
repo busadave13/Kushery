@@ -34,6 +34,7 @@
     <Content Include="wwwroot\images\LakeForestemp2.jpg" />
     <Content Include="wwwroot\images\LakeForestemp3.jpg" />
     <Content Include="wwwroot\images\lakeforestparkbanner.jpg" />
+    <Content Include="wwwroot\images\logo.jpg" />
 
   </ItemGroup>
   <ItemGroup>
