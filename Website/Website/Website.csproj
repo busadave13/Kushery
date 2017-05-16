@@ -13,7 +13,10 @@
     <Content Include="wwwroot\css\indexPage.css" />
     <Content Include="wwwroot\css\KnowYourFacts.css" />
     <Content Include="wwwroot\css\locationPage.css" />
+    <Content Include="wwwroot\images\Caitlin_Cathcart.jpg" />
     <Content Include="wwwroot\images\CathcartBanner.JPG" />
+    <Content Include="wwwroot\images\Cole_Cathcath.jpg" />
+    <Content Include="wwwroot\images\Dylan_Clearview.jpg" />
     <Content Include="wwwroot\images\emp1.jpg" />
     <Content Include="wwwroot\images\emp2.jpg" />
     <Content Include="wwwroot\images\emp3.jpg" />
@@ -26,9 +29,11 @@
     <Content Include="wwwroot\images\Everettemp2.JPG" />
     <Content Include="wwwroot\images\facebook.png" />
     <Content Include="wwwroot\images\facebookLogo.PNG" />
+    <Content Include="wwwroot\images\Funk_Clearview.jpg" />
     <Content Include="wwwroot\images\Gunner.jpg" />
     <Content Include="wwwroot\images\instagram.jpg" />
     <Content Include="wwwroot\images\instagram.png" />
+    <Content Include="wwwroot\images\Jake_Cathcart.jpg" />
     <Content Include="wwwroot\images\KusherylogoBlack.JPG" />
     <Content Include="wwwroot\images\LakeForestemp1.JPG" />
     <Content Include="wwwroot\images\LakeForestemp2.jpg" />
