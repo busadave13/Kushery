@@ -35,6 +35,10 @@ body {
 .logo {
     height: 90%;
     display: block;
+    margin: auto;
+    width:30%;
+  
+    
 }
 
 .logo img {
@@ -49,9 +53,9 @@ body {
 }
 
 
-
-
-
+}
+    
+}
 /* Customize navbar */
 /*.navbar-custom {
     background: linear-gradient(#ebebeb, #ebebeb);
@@ -102,9 +106,8 @@ body {
             .navbar-custom .navbar-nav .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .dropdown-menu > li > a:focus {
                 color: #f69f2b;
             }*/
-
-.navbar-custom {
-    background: linear-gradient(#ebebeb, #b5b5b5);
+.navbar navbar-default {
+    background: linear-gradient(#yellow, #b5b5b5);
     border-bottom: 5px solid #006500;
     font-size: 1.5em;
 }
@@ -119,8 +122,6 @@ body {
     .navbar-custom .nav-item:hover .nav-link {
         color: #ffffff;
     }
-
-
 
 
 /* Hide/rearrange for smaller screens */

@@ -1,6 +1,6 @@
 ﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,44 +22,51 @@
     @RenderSection("head", false)
 </head>
 <body>
-    <header>
-        @*Logo*@
-        <div class="logo-container">
-            <div class="logo">
-                <img src="~/images/logo.jpg" alt="Kushery Logo" />
-                <h1>* Must be 21 with valid ID *</h1>
-            </div>
-        </div>
-
-        @*Navbar*@
-        <nav class="navbar navbar-custom">
+    
+        <header>
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                @*Logo*@
+
+                <div class="logo-container">
+                    <div class="logo">
+                        <img class="img-responsive" src="~/images/logo.jpg" alt="Kushery Logo" />
+                        <h1>* Must be 21 with valid ID *</h1>
+                    </div>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations &amp; Contacts<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a asp-area="" asp-controller="Home" asp-action="Clearview">Clearview</a></li>
-                                <li><a asp-area="" asp-controller="Home" asp-action="Cathcart">Cathcart</a></li>
-                                <li><a asp-area="" asp-controller="Home" asp-action="LakeForestPark">Lake Forest Park</a></li>
+
+                @*Navbar*@
+               
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations &amp; Contacts<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a asp-area="" asp-controller="Home" asp-action="Clearview">Clearview</a></li>
+                                        <li><a asp-area="" asp-controller="Home" asp-action="Cathcart">Cathcart</a></li>
+                                        <li><a asp-area="" asp-controller="Home" asp-action="LakeForestPark">Lake Forest Park</a></li>
+                                    </ul>
+                                </li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Contact">Know your Facts</a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Events">Events</a></li>
                             </ul>
-                        </li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Know your Facts</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Events">Events</a></li>
-                    </ul>
-                </div>
+                        </div>
+                    </div>
+                </nav>
+                    
             </div>
-        </nav>
-    </header>
+            
+</header>
     <div class="container-full body-content">
         @RenderBody()
         <hr />
@@ -71,6 +78,8 @@
             <p>&copy; 2017 - The Kushery</p>
         </footer>
     </div>
+    
+    
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
@@ -99,6 +108,7 @@
 
     @RenderSection("Scripts", required: false)
 
-
+    
 </body>
 </html>
+
