@@ -35,6 +35,7 @@
 }
 
 
+
 .location-banner-name {
     color: #ffffff;
     font-size: 200px;
@@ -125,3 +126,77 @@ iframe {
 .col-sm-3{
     padding:0 0 0 55px;
 }
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .location-banner-name {
+        color: #ffffff;
+        font-size: 95px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 130px;
+        
+    }
+
+    .location-banner-coustom {
+        color: #ffffff;
+        font-size: 80px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 60px;
+    }
+    
+    
+     .col-sm-3 {
+        width: 90%;
+        font-size: 1.1em;
+        padding: 0 0 0 0;
+    }
+
+
+    .bio {
+       
+        /*padding:30px 30px 0 0px;*/
+        font-size: 1.5em;
+        padding: 50px 95px 0 0;
+        border: 1.5px solid #000000;
+        padding: 3px 0 20px 10px;
+        margin: 27px;
+        width: 360px;
+        /*word-spacing: 7pt;*/
+    }
+
+    .map {
+        display: block;
+        width: 150px;
+        height: 400px;
+        padding: 20px 0 40px 0;
+    }
+
+    .employee-carousel {
+        width: 350px;
+        padding: 0 0 0 40px;
+    }
+
+    .address {
+        font-size: 1.5em;
+        padding: 0 0 0 40px;
+    }
+
+    .information-hours {
+        font-size: 1.5em;
+        padding: 0 0 0 40px;
+    }
+
+    .social-media {
+        position: relative;
+        
+        padding: 0 0 0 40px;
+    }
+}
+
+
