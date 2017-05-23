@@ -7,10 +7,25 @@
     background: linear-gradient(to bottom right, #049444, #F59F2A);*/
 }
 
-    .page iframe {
+ iframe {
+    margin: auto;
+    padding: 30px;
+    width:800px;
+    height:600px;
+}
+
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+
+    iframe {
         margin: auto;
         padding: 30px;
+        width: 400px;
+        height: 600px;
     }
-    
 
+}
 
