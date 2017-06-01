@@ -141,7 +141,8 @@ body {
 
     /* Logo */
     .logo-container {
-        display: none;
+       height:124px;
+      
     }
 
     .navbar navbar-default {

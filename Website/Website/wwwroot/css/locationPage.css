@@ -133,7 +133,7 @@ iframe {
     /* Hide captions */
     .location-banner-name {
         color: #ffffff;
-        font-size: 95px;
+        font-size: 60px;
         left: 0;
         position: absolute;
         text-align: center;
@@ -141,9 +141,9 @@ iframe {
         
     }
 
-    .location-banner-coustom {
+      .location-banner-coustom {
         color: #ffffff;
-        font-size: 80px;
+        font-size: 60px;
         left: 0;
         position: absolute;
         text-align: center;
@@ -164,17 +164,17 @@ iframe {
         font-size: 1.5em;
         padding: 50px 95px 0 0;
         border: 1.5px solid #000000;
-        padding: 3px 0 20px 10px;
+        padding: 2px 0 20px 10px;
         margin: 27px;
-        width: 360px;
+        width: 300px;
         /*word-spacing: 7pt;*/
     }
 
     .map {
         display: block;
-        width: 150px;
+        width: 140px;
         height: 400px;
-        padding: 20px 0 40px 0;
+        padding: 7px 0 40px 18px;
     }
 
     .employee-carousel {
