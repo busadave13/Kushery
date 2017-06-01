@@ -152,6 +152,10 @@
         width:auto;
         margin-right:20px;
         margin-left:1px;
+        margin-bottom:20px;
+        width:70%;
+        height:70%;
+        font-size:.5px;
     }
     .ac-container select, 
     .ac-container input.day, 
@@ -167,4 +171,21 @@
         display: block;
         width: 100%;
     }
+
+        .ac-container p {
+            box-sizing: border-box;
+            margin: 0 0 20px 0;
+            font-size: 10px;
+            color: #959595;
+            line-height: 20px;
+        }
+
+        .ac-container h2 {
+            box-sizing: border-box;
+            margin: 0 0 14px 0;
+            font-size: 12px;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 11px;
+        }
+        
 }
