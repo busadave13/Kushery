@@ -148,14 +148,17 @@
 }             
 @media (max-width: 500px) {
     .ac-container {
+        position: fixed;
         box-sizing: border-box;
-        width:auto;
-        margin-right:20px;
-        margin-left:1px;
-        margin-bottom:20px;
-        width:70%;
-        height:70%;
-        font-size:.5px;
+        width: auto;
+        /*margin-right: 20px;
+        margin-left: 1px;*/
+        /*margin-bottom: 20px;*/
+        /*margin-top:100%;*/
+        /*height: 70%;*/
+        padding:0 5px 100px 5px;
+        font-size: 3px;
+       
     }
     .ac-container select, 
     .ac-container input.day, 
@@ -187,5 +190,6 @@
             border-bottom: 1px dashed #ccc;
             padding-bottom: 11px;
         }
+
         
 }

@@ -38,41 +38,35 @@
 
 .location-banner-name {
     color: #ffffff;
-    font-size: 200px;
+    font-size: 190px;
     left: 0;
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 30px;
+    /*top: 30px;*/
     width: 100%
     
 }
 
-.bio
-{
-    
-  width: 100%;
-  /*padding:30px 30px 0 0px;*/
-  font-size: 1.5em;
-  padding: 50px 95px 0 0;
-  border:2px solid #000000;
-  padding:8px 0 0 10px;
-  margin:27px;
-  width:850px;
-  word-spacing:7pt;
-  
-  
+.bio {
+    font-size: 1.5em;
+    padding: 2px 0 20px 10px;
+    border: 2px solid #000000;
+    margin: 27px;
+    width: 100%;
+    word-spacing: 7pt;
 }
 
 .map {
-    display: block;
+    /*display: block;
     width: 340px;
     height: 400px;
-    padding:0px 0 0 38px;
+    padding:0px 0 0 38px;*/
+    padding-left:50px;
  
 }
 iframe {
-    width: 250%;
-    height: 100%;
+    width: 100%;
+    height: 400px;
  
 }
 
@@ -85,8 +79,8 @@ iframe {
 
 .social-media {
     position: relative;
-    left: 62px;
-    padding: 25px 0 0 0;
+    left: 95px;
+    padding-top:25px;
    
    
 }
@@ -116,6 +110,8 @@ iframe {
   
 }
 
+
+
 .carousel-caption h3 {
     position: absolute;
     top: -170px;
@@ -125,7 +121,9 @@ iframe {
 
 .col-sm-3{
     padding:0 0 0 55px;
+    position:relative;
 }
+
 
 
 /* Hide/rearrange for smaller screens */
@@ -162,7 +160,7 @@ iframe {
        
         /*padding:30px 30px 0 0px;*/
         font-size: 1.5em;
-        padding: 50px 95px 0 0;
+        /*padding: 50px 95px 0 0;*/
         border: 1.5px solid #000000;
         padding: 2px 0 20px 10px;
         margin: 27px;
@@ -172,9 +170,9 @@ iframe {
 
     .map {
         display: block;
-        width: 140px;
+        width: 100%;
         height: 400px;
-        padding: 7px 0 40px 18px;
+        padding: 0 0 100px 18px;
     }
 
     .employee-carousel {
@@ -195,7 +193,7 @@ iframe {
     .social-media {
         position: relative;
         
-        padding: 0 0 0 40px;
+        padding: 0 0 0 70px;
     }
 }
 
