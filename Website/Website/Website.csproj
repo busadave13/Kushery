@@ -9,10 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\css\age-verification.css" />
     <Content Include="wwwroot\css\eventsPage.css" />
     <Content Include="wwwroot\css\indexPage.css" />
     <Content Include="wwwroot\css\KnowYourFacts.css" />
     <Content Include="wwwroot\css\locationPage.css" />
+    <Content Include="wwwroot\css\round-about.css" />
     <Content Include="wwwroot\images\Caitlin_Cathcart.jpg" />
     <Content Include="wwwroot\images\CathcartBanner.JPG" />
     <Content Include="wwwroot\images\Cole_Cathcath.jpg" />
@@ -40,6 +42,7 @@
     <Content Include="wwwroot\images\LakeForestemp3.jpg" />
     <Content Include="wwwroot\images\lakeforestparkbanner.jpg" />
     <Content Include="wwwroot\images\logo.jpg" />
+    <Content Include="wwwroot\js\age-verification.js" />
 
   </ItemGroup>
   <ItemGroup>
