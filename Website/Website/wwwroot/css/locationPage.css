@@ -48,81 +48,86 @@
 }
 
 .bio {
+    position:relative;
     font-size: 1.5em;
     padding: 2px 0 20px 10px;
     border: 2px solid #000000;
     margin: 27px;
-    width: 100%;
+    width: 89%;
     word-spacing: 7pt;
 }
 
 .map {
-    /*display: block;
-    width: 340px;
-    height: 400px;
-    padding:0px 0 0 38px;*/
+   
     padding-left:50px;
+  
+    
  
 }
 iframe {
-    width: 100%;
+    width: 89%;
     height: 400px;
+  
  
 }
 
 .address {
+    position:absolute;
     font-size: 1.5em;
+    left:200px;
+    padding:102px 0 0 100px;
+ 
 
-    padding: 50px 0 0 0px;
-
-}
-
-.social-media {
-    position: relative;
-    left: 95px;
-    padding-top:25px;
-   
-   
-}
-
-.social-media h4{
-    position:relative;
-    right: 44px;
     
+
 }
+
+.socail_media_pictures {
+    padding:20px 0 0 0;
+}
+
+
+
+
 
 .information-hours{
-    
+    position:relative;
     font-size: 1.5em;
+    right:100px;
+    
+  
   }
 
 
 .employee-carousel {
-    width: 300px;
-    padding:30px 0 10px 0;
-    
-
-}
-
-.specials {
-    padding: 50px 0 0 40px;
-    font-size: 1.5em;
-  
+  position:static;
+   
 }
 
 
 
-.carousel-caption h3 {
-    position: absolute;
-    top: -170px;
-    right: 150px;
-    font-size: 2em;
+
+.specials_monday_tuesday {
+    float: left;
+    display: inline;
+    width: 49%;
 }
 
-.col-sm-3{
-    padding:0 0 0 55px;
-    position:relative;
+
+
+.specials_wednesday_thursday {
+    float: left;
+    display: inline;
+    width: 49%;
 }
+
+.specials_friday_saturday_sunday {
+    float: left;
+    display: inline;
+    width: 49%;
+}
+
+
 
 
 
@@ -136,10 +141,9 @@ iframe {
         position: absolute;
         text-align: center;
         top: 130px;
-        
     }
 
-      .location-banner-coustom {
+    .location-banner-coustom {
         color: #ffffff;
         font-size: 60px;
         left: 0;
@@ -147,53 +151,59 @@ iframe {
         text-align: center;
         top: 60px;
     }
-    
-    
-     .col-sm-3 {
+
+
+    /*.col-sm-3 {
         width: 90%;
         font-size: 1.1em;
         padding: 0 0 0 0;
-    }
+    }*/
 
 
     .bio {
-       
         /*padding:30px 30px 0 0px;*/
-        font-size: 1.5em;
+        font-size: 1.2em;
         /*padding: 50px 95px 0 0;*/
         border: 1.5px solid #000000;
-        padding: 2px 0 20px 10px;
+        padding: 2px 5px 20px 5px;
         margin: 27px;
         width: 300px;
         /*word-spacing: 7pt;*/
     }
 
     .map {
-        display: block;
-        width: 100%;
+        /*display: block;*/
+        width: 363px;
         height: 400px;
-        padding: 0 0 100px 18px;
+        padding: 0 0 100px 27px;
     }
 
+
+
+
+
     .employee-carousel {
-        width: 350px;
-        padding: 0 0 0 40px;
+        width: 300px;
+        padding: 0 55px 0 0;
     }
 
     .address {
-        font-size: 1.5em;
-        padding: 0 0 0 40px;
+        font-size: 1em;
+        padding: 810px 0 0 81px;
     }
 
     .information-hours {
-        font-size: 1.5em;
-        padding: 0 0 0 40px;
+        font-size: 1.2em;
+        padding: 10px 10px 0 95px;
+        border: solid .5px black;
     }
 
-    .social-media {
-        position: relative;
-        
-        padding: 0 0 0 70px;
+    .socail_media_pictures {
+        padding:30px;
+    }
+
+    .all{
+        padding:100px;
     }
 }
 
