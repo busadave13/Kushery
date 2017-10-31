@@ -107,28 +107,72 @@ iframe {
 
 
 
-.specials_monday_tuesday {
-    float: left;
-    display: inline;
-    width: 49%;
+
+/*#menu ul li {
+    display: inline-block;
+    list-style-type: none;
+  
+}
+
+.special_title {
+    text-align:center;
+    font-size:3.9em;
 }
 
 
 
-.specials_wednesday_thursday {
-    float: left;
-    display: inline;
-    width: 49%;
+
+.sunday {
+    position: relative;
+    bottom: 310px;
+    padding: 0 10px 0 0;
 }
 
-.specials_friday_saturday_sunday {
-    float: left;
-    display: inline;
-    width: 49%;
+.monday {
+    position: relative;
+    bottom: 128px;
+    padding: 0 10px 0 0;
+
+    
 }
 
 
 
+.tuesday {
+    position: relative;
+    top:24px;
+ 
+  
+    padding: 0 10px 0 0;
+    
+}
+
+.wednesday {
+    position: relative;
+    bottom: 156px;
+    padding: 0 10px 0 0;
+    
+}
+
+.thursday {
+    position: relative;
+    bottom: 245px;
+    padding: 0 10px 0 0;
+    
+}
+
+.friday {
+    position: relative;
+    bottom: 243px;
+    padding: 0 10px 0 0;
+   
+}
+
+.saturday{
+    position:relative;
+    bottom:212px;
+    padding:0 0 0 5px;
+}*/
 
 
 /* Hide/rearrange for smaller screens */
@@ -188,13 +232,15 @@ iframe {
     }
 
     .address {
-        font-size: 1em;
-        padding: 810px 0 0 81px;
+        position:center;
+     padding: 20px 0 0 50px;
+     font-size:1.2em;
+     
     }
 
     .information-hours {
-        font-size: 1.2em;
-        padding: 10px 10px 0 95px;
+        font-size: 1em;
+        padding: 10px 10px 5px 95px;
         border: solid .5px black;
     }
 
