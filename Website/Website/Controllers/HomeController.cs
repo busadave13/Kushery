@@ -60,6 +60,11 @@ namespace Website.Controllers
             return View();
         }
 
+        public IActionResult Specials()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();

@@ -1,0 +1,171 @@
+﻿.col-sm-8 {
+    background-color: black;
+   
+    border-right: solid 1.5px #ff8f00;
+}
+
+.specials-banner {
+    /*background-image: url("../images/specialsbackdrop.jpg");*/
+    background-color: #000000;
+    /*background-position: center center;*/
+    background-size: cover;
+    height: 187px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    border-bottom: 7px solid #2b7320;
+}
+
+    .specials-banner-name {
+        font-size: 8em;
+        color: #2b7320;
+        text-shadow: 2px 2px #ff8f00;
+        text-decoration: underline;
+    }
+
+
+#menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    /*padding: 70px 40px 70px 40px;*/
+    padding: 0 10px 0 10px;
+    float: left;
+    font-size: 1.1em;
+    color: #DCDCDC;
+}
+
+    h4 {
+        font-size: 1.3em;
+        color: #2b7320;
+    }
+
+
+
+
+
+#kushery_Fourm {
+    padding: 0 0 0 15px;
+    color: #ff8f00;
+    
+}
+
+
+.bg_color{
+   background-color:black;
+}
+
+
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+
+    .specials-banner-name{
+        font-size:4em;
+    }
+
+    #menu ul li {
+        display: inline-block;
+        width: 123px;
+        color:black;
+        vertical-align: top;
+    }
+
+    h4{
+        font-size: 1em;
+    }
+
+
+    #kushery_Fourm{
+        position:relative;
+       
+    }
+
+
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#menu ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+
+.sunday {
+    position: relative;
+    bottom: 125px;
+  left: 190px;
+    padding: 0 10px 0 0;
+  
+}
+
+.monday {
+    position: relative;
+    bottom: 128px;
+    padding: 0 10px 0 0;
+}*/
+
+
+
+/*.tuesday {
+    position: relative;
+    top: 24px;
+    padding: 0 10px 0 0;
+}
+
+.wednesday {
+    position: relative;
+    bottom: 156px;
+    padding: 0 10px 0 0;
+}
+
+.thursday {
+    position: relative;
+    bottom: 245px;
+    padding: 0 10px 0 0;
+}
+
+.friday {
+    position: relative;
+    bottom: 243px;
+    padding: 0 10px 0 0;
+}
+
+.saturday {
+    position: relative;
+    bottom: 212px;
+    padding: 0 0 0 5px;
+}*/
