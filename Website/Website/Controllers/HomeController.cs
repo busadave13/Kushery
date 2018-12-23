@@ -69,5 +69,11 @@ namespace Website.Controllers
         {
             return View();
         }
+
+        [HttpGet("Stanwood")]
+        public IActionResult Stanwood()
+        {
+            return View();
+        }
     }
 }
