@@ -6,6 +6,7 @@
 
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+    <UserSecretsId>81feb6f0-e226-4600-ace6-e6a63bf39d81</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
